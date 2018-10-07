@@ -1,0 +1,16 @@
+<div class="car">
+  <i class="favorite-icon fa fal" [ngClass]="{'fa-star-o': !car.isFavorite, 'fa-star': car.isFavorite}" (click)="car.isFavorite=!car.isFavorite"></i>
+  <div class="image-container">
+    <img [src]="'assets/images/'+car.image"/>
+  </div>
+  <div class="info-container">
+    <div class="info-row">
+      <span class="header">Car: </span>
+      <span class="value">{{car.brand}} {{car.model}}</span>
+    </div>
+    <div class="info-row">
+      <span class="header">Price: </span>
+      <span class="value">{{car.price}}</span>
+    </div>
+  </div>
+</div>

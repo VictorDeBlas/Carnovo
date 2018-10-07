@@ -1,0 +1,65 @@
+nav {
+    padding: 0 20px;
+    margin-top: 20px;
+    input {
+        border-radius: 3px;
+        border: 1px solid #a3a3a3;
+        height: 40px;
+        margin-left: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    select {
+        border-radius: 3px;
+        border: 1px solid #a3a3a3;
+        height: 40px;
+        margin-left: 10px;
+    }
+}
+.page-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-top: 20px;
+    h2 {
+        text-align: center;
+        flex: 0 1 auto;
+        align-self: center;
+    }
+    app-car-list {
+        flex: 1 1 auto;
+        align-self: auto;
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}
+
+button {
+    background: #a3a3a3;
+    color: white;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #75aef8;
+        background: white;
+        color: black;
+    }
+    &:disabled{
+        cursor: not-allowed;
+        opacity: 0.7;
+        background: #a3a3a3;
+        color: white;
+        border: 1px solid #a1a1a1;
+    }
+}

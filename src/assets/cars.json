@@ -1,0 +1,212 @@
+[
+  {
+    "brand": "Audi",
+    "id": "1",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "2",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "3",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "4",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "5",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  },
+  {
+    "brand": "Audi",
+    "id": "6",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "7",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "8",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "9",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "10",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  },
+  {
+    "brand": "Audi",
+    "id": "11",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "12",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "13",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "14",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "15",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  },
+  {
+    "brand": "Audi",
+    "id": "16",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "17",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "18",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "19",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "20",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  },
+  {
+    "brand": "Audi",
+    "id": "21",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "22",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "23",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "24",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "25",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  },
+  {
+    "brand": "Audi",
+    "id": "26",
+    "image": "audi-s3.png",
+    "model": "S3",
+    "price": "50000"
+  },
+  {
+    "brand": "Seat",
+    "id": "27",
+    "image": "seat-ateca.png",
+    "model": "Ateca",
+    "price": "35000"
+  },
+  {
+    "brand": "Volkswagen",
+    "id": "28",
+    "image": "volkswagen-california.png",
+    "model": "California",
+    "price": "54000"
+  },
+  {
+    "brand": "Tesla",
+    "id": "29",
+    "image": "tesla-modelx.png",
+    "model": "Model X",
+    "price": "83000"
+  },
+  {
+    "brand": "BMW",
+    "id": "30",
+    "image": "bmw-serie3.png",
+    "model": "Serie 3",
+    "price": "48000"
+  }
+]

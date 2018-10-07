@@ -1,0 +1,24 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Favorite List</h4>
+        <button type="button" class="close" (click)="close()" >&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="filters">
+          <input [(ngModel)]="searchValue" placeholder="search" (keyup)="updateList()">
+        </div>
+        <div class="car-list" *ngIf="favoriteList.length > 0">
+          <div *ngFor="let car of favoriteList">
+            <app-car-element [car]="car"></app-car-element>
+          </div>
+        </div>
+        <div *ngIf="favoriteList.length === 0">
+          Add cars to your favorite list!
+        </div>        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" (click)="close()" >Close</button>
+      </div>
+    </div>
+</div>

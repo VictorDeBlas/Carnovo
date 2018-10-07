@@ -1,0 +1,22 @@
+<nav>
+  <button (click)="showFavoritesList()">My Favorites</button>
+  <input [(ngModel)]="searchValue" placeholder="search..." (keyup)="updateSearchText()">
+  <select #selectSearch (change)="setOption(selectSearch.value)">
+      <option *ngFor="let option of searchOptions" [value]="option">
+          {{option}}
+      </option>
+  </select>
+  <select #selectOrder (change)="setSort(selectOrder.value)">
+      <option [ngValue]="undefined" disabled  selected>Order by...</option>
+      <option *ngFor="let option of searchOptions" [value]="option">
+          {{option}}
+      </option>
+  </select>
+  
+</nav>
+<div class="page-container">
+  <h2>Carnovo Code Test!</h2>
+  <app-car-list #carList></app-car-list>
+  <button (click)="loadMoreCars()" [disabled]="!carListComponent.hasMoreAvailable">Load More</button>
+</div>
+

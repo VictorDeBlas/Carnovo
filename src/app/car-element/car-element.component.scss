@@ -1,0 +1,58 @@
+.car {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    align-items: center;
+    .favorite-icon {
+        font-size: 20px;
+        padding: 0 10px;
+        &.fa-star {
+            color: yellow;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: orange;
+        }
+    }
+    .image-container {
+        width: 200px;
+        height: 200px;
+        display: inline-flex;
+        margin: 10px;
+        margin-right: 10px;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .info-container {
+        margin: 10px;
+        flex: 1 1 200px;
+        display: flex;
+        flex-direction: column;
+        .info-row {
+            flex: 1 1 auto;
+            display: table;
+            .header {
+                font-weight: bold;
+                width: 120px;
+                display: table-cell;
+            }
+            .value {
+                display: table-cell;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 600px) {
+    .car {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image-container {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}

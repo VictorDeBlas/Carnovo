@@ -1,0 +1,3 @@
+<div *ngFor="let car of carList | search: [searchText, searchBy] | sort: sortBy">
+  <app-car-element [car]="car"></app-car-element>
+</div>
