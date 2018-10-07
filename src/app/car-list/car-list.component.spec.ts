@@ -9,7 +9,7 @@ import { SearchPipe } from './car-list-search.pipe';
 import { CarData } from '../model/car.model';
 import { Observable } from 'rxjs';
 
-fdescribe('CarListComponent', () => {
+describe('CarListComponent', () => {
   let component: CarListComponent;
   let service;
   let fixture: ComponentFixture<CarListComponent>;
